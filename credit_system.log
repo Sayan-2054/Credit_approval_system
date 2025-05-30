@@ -1,0 +1,45 @@
+API Error: Method "GET" not allowed. - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7f97f586d0>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/register/'>}
+API Error: Method "GET" not allowed. - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7fb49bf210>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/check-eligibility/'>}
+API Error: Method "GET" not allowed. - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7f97e71810>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/register/?first_name=%22sayan%22&last_name=%22chow%22&age=25&monthly_income=100000&phone_number=4567891230'>}
+API Error: Unsupported media type "text/plain" in request. - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7f97fbd0d0>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: POST '/api/register/?%22first_name%22=%22sayan%22&%22last_name%22=%22chow%22&%22age%22=25&%22monthly_income%22=100000&%22phone_number%22=4567891230'>}
+API Error: JSON parse error - Expecting property name enclosed in double quotes: line 7 column 1 (char 129) - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7f97fc0910>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: POST '/api/register/?%22first_name%22=%22sayan%22&%22last_name%22=%22chow%22&%22age%22=25&%22monthly_income%22=100000&%22phone_number%22=4567891230'>}
+API Error: JSON parse error - Expecting property name enclosed in double quotes: line 7 column 1 (char 129) - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7f97fadfd0>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: POST '/api/register/'>}
+API Error: JSON parse error - Expecting property name enclosed in double quotes: line 7 column 1 (char 129) - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7fb4917190>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: POST '/api/register/'>}
+New customer 5, default score: 50
+EMI constraint check: current=0, new=400872.88, total=400872.88, threshold=50000.000, met=False
+Payment history score: 31.65217391304347826086956522 (ratio: 0.9043478260869565217391304348)
+Utilization score: 0 (ratio: 19.44444444444444444444444444)
+History score: 15 (age: 14.565366187542779 years)
+Activity score: 8 (recent loans: 1)
+Diversity score: 10 (total loans: 3)
+Score overridden to 0: debt 70000000.00 > limit 3600000.00
+Final credit score for customer 20: 0
+Payment history score: 31.65217391304347826086956522 (ratio: 0.9043478260869565217391304348)
+Utilization score: 0 (ratio: 19.44444444444444444444444444)
+History score: 15 (age: 14.565366187542779 years)
+Activity score: 8 (recent loans: 1)
+Diversity score: 10 (total loans: 3)
+Score overridden to 0: debt 70000000.00 > limit 3600000.00
+Final credit score for customer 20: 0
+Payment history score: 26.56934306569343065693430657 (ratio: 0.7591240875912408759124087591)
+Utilization score: 20 (ratio: 0.4146341463414634146341463415)
+History score: 15 (age: 9.911019849418206 years)
+Activity score: 10 (recent loans: 0)
+Diversity score: 10 (total loans: 5)
+Final credit score for customer 21: 81
+EMI constraint check: current=59911.00, new=22003.80, total=81914.80, threshold=54500.000, met=False
+Payment history score: 23.33333333333333333333333333 (ratio: 0.6666666666666666666666666667)
+Utilization score: 30 (ratio: 0.1836734693877551020408163265)
+History score: 10 (age: 3.0992470910335386 years)
+Activity score: 10 (recent loans: 0)
+Diversity score: 10 (total loans: 2)
+Final credit score for customer 25: 83
+EMI constraint check: current=29861.00, new=22003.80, total=51864.80, threshold=48000.000, met=False
+Payment history score: 23.33333333333333333333333333 (ratio: 0.6666666666666666666666666667)
+Utilization score: 30 (ratio: 0.1836734693877551020408163265)
+History score: 10 (age: 3.0992470910335386 years)
+Activity score: 10 (recent loans: 0)
+Diversity score: 10 (total loans: 2)
+Final credit score for customer 25: 83
+EMI constraint check: current=29861.00, new=2200.38, total=32061.38, threshold=48000.000, met=True
+API Error: Method "POST" not allowed. - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7fb498ddd0>, 'args': (), 'kwargs': {'customer_id': 21}, 'request': <rest_framework.request.Request: POST '/api/view-loans/21/'>}
