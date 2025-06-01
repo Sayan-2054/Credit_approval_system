@@ -43,3 +43,39 @@ Diversity score: 10 (total loans: 2)
 Final credit score for customer 25: 83
 EMI constraint check: current=29861.00, new=2200.38, total=32061.38, threshold=48000.000, met=True
 API Error: Method "POST" not allowed. - Context: {'view': <loans.views.WrappedAPIView object at 0x7f7fb498ddd0>, 'args': (), 'kwargs': {'customer_id': 21}, 'request': <rest_framework.request.Request: POST '/api/view-loans/21/'>}
+API Error: JSON parse error - Expecting property name enclosed in double quotes: line 7 column 1 (char 129) - Context: {'view': <loans.views.WrappedAPIView object at 0x75ca0777b3d0>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: POST '/api/register/'>}
+New customer 302, default score: 50
+EMI constraint check: current=0, new=2658.00, total=2658.00, threshold=50000.000, met=True
+API Error: Method "GET" not allowed. - Context: {'view': <loans.views.WrappedAPIView object at 0x75ca0772de50>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/create-loan/'>}
+New customer 302, default score: 50
+EMI constraint check: current=0, new=2658.00, total=2658.00, threshold=50000.000, met=True
+API Error: Method "POST" not allowed. - Context: {'view': <loans.views.WrappedAPIView object at 0x75ca05b53650>, 'args': (), 'kwargs': {'loan_id': 2}, 'request': <rest_framework.request.Request: POST '/api/view-loan/2/'>}
+API Error: No Loan matches the given query. - Context: {'view': <loans.views.WrappedAPIView object at 0x75ca05b33a10>, 'args': (), 'kwargs': {'loan_id': 302}, 'request': <rest_framework.request.Request: GET '/api/view-loan/302/'>}
+Payment history score: 0 (ratio: 0)
+Utilization score: 30 (ratio: 0.02777777777777777777777777778)
+History score: 3 (age: 0.0 years)
+Activity score: 8 (recent loans: 1)
+Diversity score: 7 (total loans: 1)
+Final credit score for customer 302: 48
+EMI constraint check: current=2658.00, new=2658.00, total=5316.00, threshold=50000.000, met=True
+New customer 303, default score: 50
+EMI constraint check: current=0, new=2658.00, total=2658.00, threshold=40000.000, met=True
+New customer 301, default score: 50
+EMI constraint check: current=0, new=2658.00, total=2658.00, threshold=50000.000, met=True
+Payment history score: 29.40 (ratio: 0.84)
+Utilization score: 30 (ratio: 0.1666666666666666666666666667)
+History score: 12 (age: 5.286789869952088 years)
+Activity score: 10 (recent loans: 0)
+Diversity score: 7 (total loans: 1)
+Final credit score for customer 128: 88
+EMI constraint check: current=24554.00, new=2658.00, total=27212.00, threshold=40000.000, met=True
+Payment history score: 21.27450980392156862745098039 (ratio: 0.6078431372549019607843137255)
+Utilization score: 30 (ratio: 0E+2)
+History score: 15 (age: 8.747433264887064 years)
+Activity score: 10 (recent loans: 0)
+Diversity score: 7 (total loans: 1)
+Final credit score for customer 18: 83
+EMI constraint check: current=0, new=2658.00, total=2658.00, threshold=102000.000, met=True
+New customer 303, default score: 50
+EMI constraint check: current=0, new=4252.80, total=4252.80, threshold=40000.000, met=True
+API Error: Method "POST" not allowed. - Context: {'view': <loans.views.WrappedAPIView object at 0x726bc7d72b90>, 'args': (), 'kwargs': {'loan_id': 3}, 'request': <rest_framework.request.Request: POST '/api/view-loan/3/'>}
